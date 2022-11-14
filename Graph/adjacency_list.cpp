@@ -29,9 +29,9 @@ class Graph
             cout<<"V["<<i<<"] -> [";
             for(auto ed : l[i])
             {
-                cout<<ed;
+                cout<<ed<<", ";
             }
-            cout<<endl;
+            cout<<"]"<<endl;
         }
     }
 };
